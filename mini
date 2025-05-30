@@ -3,7 +3,7 @@ ruleset=DIRECT,https://raw.githubusercontent.com/PoeMyintzu/Demo/main/ai.txt
 ruleset=DIRECT,https://raw.githubusercontent.com/PoeMyintzu/Demo/main/google.txt
 ruleset=DIRECT,https://raw.githubusercontent.com/PoeMyintzu/Demo/main/mm-ip.list
 ruleset=DIRECT,[]GEOIP,MM,no-resolve
-ruleset=🎈 其余流量,[]FINAL
+ruleset=☁️ Proxy,[]FINAL
 
 custom_proxy_group=☁️ Proxy`select`[]🔮 Load Balance`[]⚡ Lowest Latency`[]✏️ Manual
 custom_proxy_group=✏️ Manual`select`[]DIRECT`.*  ; proxies=[] 
