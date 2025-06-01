@@ -1,5 +1,3 @@
-ruleset=REJECT,https://raw.githubusercontent.com/PoeMyintzu/Demo/main/reject.txt
-ruleset=REJECT,https://raw.githubusercontent.com/PoeMyintzu/Demo/main/adblock.txt
 ruleset=☁️ Proxy,https://raw.githubusercontent.com/PoeMyintzu/Demo/main/facebook.txt
 ruleset=DIRECT,https://raw.githubusercontent.com/PoeMyintzu/Demo/main/mm-ip.list
 ruleset=DIRECT,[]GEOIP,MM
