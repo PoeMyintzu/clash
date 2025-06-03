@@ -96,7 +96,8 @@ rule-providers:
     interval: 86400
     
 rules:
-- RULE-SET,reject,REJECT      
+- RULE-SET,reject,REJECT
+- RULE-SET,adblock,REJECT
   #IP-CIDR
 - IP-CIDR,23.199.72.0/24,DIRECT
 - IP-CIDR,23.203.174.0/24,DIRECT
