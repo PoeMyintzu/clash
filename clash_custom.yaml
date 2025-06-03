@@ -536,8 +536,8 @@ rules:
 - PROCESS-NAME,com.google.android.youtube,DIRECT
 - PROCESS-NAME,com.google.android.apps.maps,DIRECT
 - PROCESS-NAME,com.google.android.apps.docs,DIRECT
+- PROCESS-NAME,com.ss.android.ugc.trill,DIRECT
 - PROCESS-NAME,com.ooredoo.selfcare,DIRECT
-- PROCESS-NAME,network.kalock.myanmar2d,DIRECT
 - PROCESS-NAME,com.mytel.myid,DIRECT
 - PROCESS-NAME,mm.com.mptvas,DIRECT
 - PROCESS-NAME,com.ofss.digx.mab,DIRECT
@@ -588,6 +588,7 @@ rules:
 - DOMAIN-SUFFIX,googleadservices.com,DIRECT
 - DOMAIN-SUFFIX,googleplex.com,DIRECT
 - DOMAIN-SUFFIX,goog,DIRECT
+- DOMAIN-SUFFIX,tiktok.com,DIRECT
   # Google AI Services
 - DOMAIN-SUFFIX,gemini.google.com,DIRECT,no-resolve
 - DOMAIN-SUFFIX,ai.google.dev,DIRECT
