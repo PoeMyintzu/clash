@@ -36,8 +36,6 @@ tun:
   auto-route: true
   auto-detect-interface: true
   dns-hijack:
-    - 114.114.114.114
-    - 223.5.5.5
     - 8.8.8.8
     - 1.1.1.1
 
@@ -549,10 +547,11 @@ rules:
 - PROCESS-NAME,mm.com.atom.store,DIRECT
 - PROCESS-NAME,com.deepseek.chat,DIRECT
 - PROCESS-NAME,us.zoom.videomeetings,DIRECT
-- PROCESS-NAME,IDMan.exe,DIRECT
 - PROCESS-NAME,qbittorrent.exe,DIRECT
+- PROCESS-NAME,com.ezviz,DIRECT
+- PROCESS-NAME,com.mm.android.smartlifeiot,DIRECT
+- PROCESS-NAME,com.jits.mbanking.aya,DIRECT
 - PROCESS-NAME,com.whatsapp,☁️ Proxy
-- PROCESS-NAME,com.jits.mbanking.aya,☁️ Proxy
 - PROCESS-NAME,com.facebook.orca,☁️ Proxy
 - PROCESS-NAME,com.facebook.katana,☁️ Proxy
   #AI
