@@ -1,0 +1,96 @@
+rules:
+  - RULE-SET,adblock,REJECT
+  - RULE-SET,reject,REJECT
+  - DOMAIN-KEYWORD,facebook,⚡ Auto
+  - DOMAIN-KEYWORD,fb,⚡ Auto
+  - DOMAIN-SUFFIX,facebook.com,⚡ Auto
+  - DOMAIN-SUFFIX,fbcdn.net,⚡ Auto
+  - DOMAIN-SUFFIX,fb.com,⚡ Auto
+  - DOMAIN-SUFFIX,instagram.com,⚡ Auto
+  - DOMAIN-SUFFIX,whatsapp.com,⚡ Auto
+  - DOMAIN-SUFFIX,messenger.com,⚡ Auto
+  - DOMAIN-SUFFIX,xx.fbcdn.net,⚡ Auto
+  - DOMAIN-SUFFIX,xy.fbcdn.net,⚡ Auto
+  - DOMAIN-SUFFIX,fzxx.net,⚡ Auto
+  - DOMAIN,idope.se,DIRECT
+  - DOMAIN-SUFFIX,gov.mm,DIRECT
+  - DOMAIN-SUFFIX,com.mm,DIRECT
+  - DOMAIN-SUFFIX,org.mm,DIRECT
+  - DOMAIN-SUFFIX,edu.mm,DIRECT
+  - DOMAIN-SUFFIX,net.mm,DIRECT
+  - DOMAIN-SUFFIX,ayabank.com,DIRECT
+  - DOMAIN-SUFFIX,kbzbank.com,DIRECT
+  - DOMAIN-SUFFIX,cbbank.com.mm,DIRECT
+  - DOMAIN-SUFFIX,agdbank.com,DIRECT
+  - DOMAIN-SUFFIX,mabbank.com,DIRECT
+  - DOMAIN-SUFFIX,yomabank.com,DIRECT
+  - DOMAIN-SUFFIX,wavemoney.com.mm,DIRECT
+  - DOMAIN-SUFFIX,truemoney.com.mm,DIRECT
+  - DOMAIN-SUFFIX,mpt.com.mm,DIRECT
+  - DOMAIN-SUFFIX,telenor.com.mm,DIRECT
+  - DOMAIN-SUFFIX,ooredoo.com.mm,DIRECT
+  - DOMAIN-SUFFIX,mytel.com.mm,DIRECT
+  - PROCESS-NAME,network.kalock.myanmar2d,DIRECT
+  - PROCESS-NAME,com.kbzbank.kpaycustomer,DIRECT
+  - PROCESS-NAME,com.ayaplus.subscriber,DIRECT
+  - PROCESS-NAME,org.telegram.messenger,DIRECT
+  - PROCESS-NAME,com.tencent.mm,DIRECT
+  - PROCESS-NAME,com.ezviz,DIRECT
+  - PROCESS-NAME,com.mm.android.smartlifeiot,DIRECT
+  - PROCESS-NAME,com.ss.android.ugc.trill,DIRECT
+  - PROCESS-NAME,com.openai.chatgpt,DIRECT
+  - PROCESS-NAME,com.google.android.youtube,DIRECT
+  - PROCESS-NAME,com.google.android.apps.maps,DIRECT
+  - PROCESS-NAME,com.google.android.apps.docs,DIRECT
+  - PROCESS-NAME,com.ooredoo.selfcare,DIRECT
+  - PROCESS-NAME,com.mytel.myid,DIRECT
+  - PROCESS-NAME,mm.com.mptvas,DIRECT
+  - PROCESS-NAME,com.ofss.digx.mab,DIRECT
+  - PROCESS-NAME,mm.com.wavemoney.wavepay,DIRECT
+  - PROCESS-NAME,com.ascend.money.rewards.app.mm,DIRECT
+  - PROCESS-NAME,com.com.jits.mbanking.aya,DIRECT
+  - PROCESS-NAME,mm.com.atom.store,DIRECT
+  - PROCESS-NAME,com.deepseek.chat,DIRECT
+  - PROCESS-NAME,us.zoom.videomeetings,DIRECT
+  - PROCESS-NAME,qbittorrent.exe,DIRECT
+  - DOMAIN-SUFFIX,google.com,DIRECT
+  - DOMAIN-SUFFIX,google.net,DIRECT
+  - DOMAIN-SUFFIX,google.org,DIRECT
+  - DOMAIN-SUFFIX,googleapis.com,DIRECT
+  - DOMAIN-SUFFIX,gstatic.com,DIRECT
+  - DOMAIN-SUFFIX,youtube.com,DIRECT
+  - DOMAIN-SUFFIX,ytimg.com,DIRECT
+  - DOMAIN-SUFFIX,googlevideo.com,DIRECT
+  - DOMAIN-SUFFIX,googleusercontent.com,DIRECT
+  - DOMAIN-SUFFIX,ggpht.com,DIRECT
+  - DOMAIN-SUFFIX,google-analytics.com,DIRECT
+  - DOMAIN-SUFFIX,gmail.com,DIRECT
+  - DOMAIN-SUFFIX,googlemail.com,DIRECT
+  - DOMAIN-SUFFIX,googleadservices.com,DIRECT
+  - DOMAIN-SUFFIX,googleplex.com,DIRECT
+  - DOMAIN-SUFFIX,goog,DIRECT
+  - DOMAIN-SUFFIX,gemini.google.com,DIRECT
+  - DOMAIN-SUFFIX,ai.google.dev,DIRECT
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com,DIRECT
+  - DOMAIN-SUFFIX,vertexai.google.com,DIRECT
+  - DOMAIN-SUFFIX,aihub.google.com,DIRECT
+  - DOMAIN-SUFFIX,deepmind.google,DIRECT
+  - DOMAIN-SUFFIX,chat.deepseek.com,DIRECT
+  - DOMAIN-SUFFIX,deepseek.com,DIRECT
+  - DOMAIN-SUFFIX,api.deepseek.com,DIRECT
+  - DOMAIN-SUFFIX,openai.com,DIRECT
+  - DOMAIN-SUFFIX,chat.openai.com,DIRECT
+  - DOMAIN-SUFFIX,platform.openai.com,DIRECT
+  - DOMAIN-SUFFIX,api.openai.com,DIRECT
+  - DOMAIN-SUFFIX,claude.ai,DIRECT
+  - DOMAIN-SUFFIX,anthropic.com,DIRECT
+  - DOMAIN-SUFFIX,console.anthropic.com,DIRECT
+  - DOMAIN-SUFFIX,ai.cloudflare.com,DIRECT
+  - DOMAIN-SUFFIX,workers.ai,DIRECT
+  - DOMAIN-SUFFIX,ffa.chat,DIRECT
+  - DOMAIN-SUFFIX,perplexity.ai,DIRECT
+  - DOMAIN-KEYWORD,ai,DIRECT
+  - DOMAIN-KEYWORD,gpt,DIRECT
+  - DOMAIN-KEYWORD,deepseek,DIRECT
+  - GEOIP,MM,DIRECT
+  - MATCH,⚡ Fast
